@@ -1,6 +1,9 @@
 import logo from "../../assets/logo finvachi.png"
+import facebook from "../../assets/facebook.png"
+import linkedIn from "../../assets/linkedin.png"
+import twitter from "../../assets/twitter.png"
+import google from "../../assets/google.png"
 import { TfiLock } from "react-icons/tfi";
-
 import { FaUserAlt } from "react-icons/fa";
 import LoginInputField from "./LoginInputField";
 import { Link } from "react-router-dom";
@@ -29,6 +32,21 @@ const LoginForm = () => {
         <div className="w-full h-[0px]  border border-borderColor"></div>
         <div className="text-center text-secondary text-2xl font-normal ">OR</div>
         <div className="w-full h-[0px]  border border-borderColor"></div>
+      </div>
+      <p className="text-secondary text-xl">Continue with Social Media</p>
+      <div className="flex justify-center items-center gap-5">
+        <div className="border w-16 h-16 rounded-full flex justify-center items-center">
+          <img src={google} alt="google" className="w-12 " />
+        </div>
+        <div className="border w-16 h-16  rounded-full flex justify-center items-center">
+          <img src={facebook} alt="facebook" className="w-12 " />
+        </div>
+        <div className="border w-16 h-16 rounded-full flex justify-center items-center">
+          <img src={linkedIn} alt="linkedIn" className="w-12 " />
+        </div>
+        <div className="border w-16 h-16 rounded-full flex justify-center items-center">
+          <img src={twitter} alt="twitter" className="w-10 " />
+        </div>
       </div>
     </div>
   )
