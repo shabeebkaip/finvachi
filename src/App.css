@@ -1,0 +1,8 @@
+ .login-image-wrapper {
+  background-image: url('./assets/login-bg.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
