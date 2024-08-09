@@ -12,7 +12,6 @@ export default {
         borderColor: "#707070",
       },
       fontSize: {
-        // Define custom font sizes here
         xs: '0.75rem',   // 12px
         sm: '0.875rem',  // 14px
         base: '1rem',    // 16px
@@ -26,12 +25,22 @@ export default {
         '7xl': '4.5rem',  // 72px
         '8xl': '6rem',    // 96px
         '9xl': '8rem',    // 128px
-
-        // Add custom sizes
         'tiny': '0.625rem',   // 10px
         'huge': '10rem',      // 160px
-        // You can define more custom sizes as needed
-      }
+      },
+      container: {
+        center: true,
+        screens: {
+          sm: '600px',     // Small screens
+          md: '728px',     // Medium screens
+          lg: '984px',     // Large screens
+          xl: '1240px',    // Extra-large screens
+          '2xl': '1496px', // 2xl screens
+          '3xl': '1600px', // Custom screen for 1600px
+          '4xl': '1792px', // Custom screen for 1792px
+          '5xl': '1920px', // Custom screen for 1920px
+        },
+      },
     },
   },
   plugins: [],
