@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="bg-gradient-to-b from-[#6EABDF] to-[#D4EBFF] p-2">
       <div className="container  grid grid-cols-5 gap-5">
-        <div className="flex items-center gap-5 col-span-3 justify-around ">
+        <div className="flex items-center gap-20 col-span-3 justify-start ">
           <img src={logo} alt="logo" className='w-48' />
           <div className="flex items-center gap-2">
             <HeaderCards text="Nifty50" />

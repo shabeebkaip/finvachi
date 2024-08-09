@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: "#277BAB",
         secondary: "#888888",
+        finvBlue: "#083F75",
         borderColor: "#707070",
       },
       fontSize: {
